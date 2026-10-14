@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# Environment (SECRETS)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Google
+credentials.json
+token.json
+client_secret*.json
+
+# n8n workflows (contiennent des credentials)
+WF-*.json
+*.n8n.json
+# Backups
+*.backup
+*.bak
